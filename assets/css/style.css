@@ -1,0 +1,111 @@
+body{
+    background: url(assets/images/new-background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 20px;
+    overflow: auto;
+}
+
+.header{
+    text-align: center;
+    font-size: 70px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  rgb(255, 255, 255);
+    padding-top: 5%;
+}
+
+.icon-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px rgb(53, 184, 228);
+ 
+  }
+
+.p1 {
+    font-size: 22px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 0px;
+}
+
+.p2 {
+    margin-top: 10px;
+    font-size: 18px;
+    margin-bottom: 50px;
+     
+}
+
+.container1{
+    overflow: auto;
+    text-align: center;
+    color:  rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+
+.header-2 {
+    text-align: center;
+    color:  rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.container-crystals{
+    margin-left: 25%;
+    background-color: transparent;
+    margin-bottom: 50%;
+
+} 
+
+.container-crystals{
+align-items: center;
+
+}
+
+.col-xs-6{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#match-number{
+    color:  rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#random-number{
+    color:  rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 20px;
+}
+
+#button1{
+    background-color: transparent;
+    border: 2px solid  rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:  rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+
+#your-number{
+    color: rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#total-score{
+    color:  rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.score{
+    color:  rgb(255, 255, 255);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+   
+}
+
+#number-show{
+    max-width: 900px;
+    margin:0 auto;
+}

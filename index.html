@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Crystal Collector Game</title>
+    <title>Mana Collector Game</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--Bootstrap-->
@@ -21,19 +21,19 @@
         crossorigin="anonymous"></script>
 
     <!--My CSS-->
-    <link rel="stylesheet" href="/Users/alsmith/unit-4-game/assets/css/style.css">
-    <link rel="stylesheet" href="/Users/alsmith/unit-4-game/assets/css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
 </head>
 
 <body>
     <div class="header text-center">
-        <h1>CRYSTAL COLLECTOR</h1>
+        <h1>MANA COLLECTOR</h1>
         <p class="p1">You will be given a random number at the start of each game that you must match by clicking the
             Magic: The Gatering icons below.</p>
         <p class="p1">The value of each icon is hidden from you until you click it. To win the game you
             must match your total score to the random number.</p>
 
-        <p class="p2"> NOTE: The game will change the values of each crystal for each new round.</p>
+        <p class="p2"> NOTE: The game will change the values of each icon for each new round.</p>
     </div>
 
     <div class="row" id="number-show">
@@ -52,10 +52,7 @@
             <p class="score">WINS: <span id="wins"></span></p>
             <p class="score">LOSSES: <span id="losses"></span></p>
         </div>
-        <!-- <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 text-center">
-        </div>
-        <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2 text-center">
-        </div> -->
+
     </div>
 
     <br>
@@ -64,19 +61,20 @@
 
         <div class="row">
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                <img class="crystal-image img-responsive" id="img1" src="/Users/alsmith/unit-4-game/assets/images/swamp-icon.jpg" alt="Icon 1" />
+                <img class="icon-image img-responsive" id="img1"
+                    src="assets/images/swamp-icon.jpg" alt="Icon 1" />
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                <img class="crystal-image img-responsive" id="img2"
-                    src="/Users/alsmith/unit-4-game/assets/images/island-icon.png" alt="Icon 2" />
+                <img class="icon-image img-responsive" id="img2"
+                    src="assets/images/island-icon.png" alt="Icon 2" />
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                <img class="crystal-image img-responsive" id="img3"
-                    src="/Users/alsmith/unit-4-game/assets/images/mountain-icon.png" alt="Icon 3" />
+                <img class="icon-image img-responsive" id="img3"
+                    src="assets/images/mountain-icon.png" alt="Icon 3" />
             </div>
             <div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 text-center">
-                <img class="crystal-image img-responsive" id="img4"
-                    src="/Users/alsmith/unit-4-game/assets/images/plains-icon.png" alt="Icon 4" />
+                <img class="icon-image img-responsive" id="img4"
+                    src="assets/images/plains-icon.png" alt="Icon 4" />
             </div>
         </div>
 
@@ -86,7 +84,7 @@
     </div>
 
 
-    <script type="text/javascript" src="/Users/alsmith/unit-4-game/assets/javascript/game.js"></script>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 
