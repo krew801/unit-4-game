@@ -1,5 +1,5 @@
 body{
-    background: url(/Users/alsmith/unit-4-game/assets/images/background.png) no-repeat center center fixed;
+    background: url(../unit-4-game/assets/images/background.png) no-repeat center center fixed;
     background-size: cover;
     padding-top: 20px;
     overflow: auto;
@@ -9,7 +9,7 @@ body{
     text-align: center;
     font-size: 70px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:  rgb(255, 255, 255);
+    color:  rgb(229, 226, 226);
     padding-top: 5%;
 }
 
@@ -37,7 +37,7 @@ body{
 .container1{
     overflow: auto;
     text-align: center;
-    color:  rgb(255, 255, 255);
+    color:  rrgb(229, 226, 226);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 15%;
     margin-right: 15%;
@@ -46,7 +46,7 @@ body{
 
 .header-2 {
     text-align: center;
-    color:  rgb(255, 255, 255);
+    color:  rgb(229, 226, 226);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -69,37 +69,37 @@ align-items: center;
 }
 
 #match-number{
-    color:  rgb(255, 255, 255);
+    color:  rgb(229, 226, 226);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
 #random-number{
-    color:  rgb(255, 255, 255);
+    color:  rgb(229, 226, 226);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin-left: 20px;
 }
 
 #button1{
     background-color: transparent;
-    border: 2px solid  rgb(255, 255, 255);
+    border: 2px solid  rgb(229, 226, 226);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color:  rgb(255, 255, 255);
+    color:  rgb(229, 226, 226);
     letter-spacing: 2px;
 }
 
 #your-number{
-    color: rgb(255, 255, 255);
+    color: rgb(229, 226, 226);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #total-score{
-    color:  rgb(255, 255, 255);
+    color:  rgb(229, 226, 226);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .score{
-    color:  rgb(255, 255, 255);
+    color:  rgb(229, 226, 226);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 20px;
    
