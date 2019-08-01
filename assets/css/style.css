@@ -1,5 +1,5 @@
 body{
-    background: url(../unit-4-game/assets/images/background.png) no-repeat center center fixed;
+    background: url(./assets/images/background.png) no-repeat center center fixed;
     background-size: cover;
     padding-top: 20px;
     overflow: auto;
